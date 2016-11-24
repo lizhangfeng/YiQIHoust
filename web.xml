@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.BaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomeAD</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.HomeAD</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomeBBS</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.HomeBBS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompanyAD</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.CompanyAD</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DecorateLive</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.DecorateLive</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CityActive</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.CityActive</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewHouserDecorate</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.NewHouserDecorate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OldHouserDecorate</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.OldHouserDecorate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OnSite</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.OnSite</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectDescribe</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.ProjectDescribe</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeamerAll</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.TeamerAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeamerDetails</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.TeamerDetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeamerIntroduce</servlet-name>
+    <servlet-class>com.fanhy.house.servlet.TeamerIntroduce</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HomeAD</servlet-name>
+    <url-pattern>/HomeAD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/BaseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomeBBS</servlet-name>
+    <url-pattern>/HomeBBS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompanyAD</servlet-name>
+    <url-pattern>/CompanyAD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DecorateLive</servlet-name>
+    <url-pattern>/DecorateLive</url-pattern>
+  </servlet-mapping>	
+  
+  <servlet-mapping>
+    <servlet-name>CityActive</servlet-name>
+    <url-pattern>/CityActive</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewHouserDecorate</servlet-name>
+    <url-pattern>/NewHouserDecorate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OldHouserDecorate</servlet-name>
+    <url-pattern>/OldHouserDecorate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OnSite</servlet-name>
+    <url-pattern>/OnSite</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectDescribe</servlet-name>
+    <url-pattern>/ProjectDescribe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeamerAll</servlet-name>
+    <url-pattern>/TeamerAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeamerDetails</servlet-name>
+    <url-pattern>/TeamerDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeamerIntroduce</servlet-name>
+    <url-pattern>/TeamerIntroduce</url-pattern>
+  </servlet-mapping>	
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
